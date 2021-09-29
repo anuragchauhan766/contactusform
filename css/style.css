@@ -21,6 +21,12 @@
     background-size: cover;
     
 }
+@media only screen and (max-width: 600px)
+{
+    .contactus{
+        background-image: url(../img/bg_mobile.jpg), linear-gradient(to right, #434343 0%, black 100%);
+    }
+}
 .contactus .contant{
     max-width: 800px;
     text-align: center;
